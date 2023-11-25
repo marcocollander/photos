@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
 
 	return (
 		<html lang='pl'>
-			<body>
+			<body className='bg-orange-400'>
 				<Header onClick={handleClick} active={active} />
 				<Navigation active={active}  onClick={handleClickLink}/>
 				{children}

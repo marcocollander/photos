@@ -9,7 +9,7 @@ const Navigation = ({ active, onClick }) => {
 		<nav className=''>
 			<ul
 				className={clsx(
-					'absolute top-15 right-1 bg-slate-100 h-28 w-1/4 z-10 p-3 text-center rounded-2xl',
+					'absolute top-15 right-0 bg-orange-400 h-14 w-full z-10 p-3 flex justify-evenly',
 					!active && 'hidden'
 				)}>
 				{pages.map((page, index) => (
